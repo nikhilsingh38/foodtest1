@@ -41,3 +41,11 @@ function remove(el) {
   localStorage.setItem("datas", JSON.stringify(cartarr));
   window.location.reload(true);
 }
+
+
+document.getElementById("check").addEventListener("click", go);
+
+function go() {
+  window.location.href = "checkout.html";
+}
+
