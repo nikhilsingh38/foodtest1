@@ -1,0 +1,17 @@
+#container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+
+        margin: 20px;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #count{
+        font-size: 40px;
+        font-weight: 30;
+    }

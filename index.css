@@ -1,0 +1,26 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    font-size: 50px;
+}
+
+#f1{
+    margin-left: 40%;
+
+}
+#f2{
+    margin-left: 12%;
+    
+}
+#f3{
+    margin-left: 12%;
+    
+}
+
+button{
+
+    background-color: red;
+    width: 100px;
+    height: 30px;
+}
